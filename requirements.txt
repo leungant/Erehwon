@@ -10,4 +10,3 @@ django-custom-user==0.6
 django-notifications-hq==1.2
 django-postman==3.4.0
 django-ajax-selects==1.5.2
-django-allauth==0.28.0

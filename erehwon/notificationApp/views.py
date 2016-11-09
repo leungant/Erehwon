@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 from django.http import HttpResponseRedirect, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
-from allauth.account.views import SignupView, LoginView
+#from allauth.account.views import SignupView, LoginView
 
 # Create your views here.
 
@@ -26,13 +26,3 @@ def logout(request):
     logout()
     render(request)
     return HttpResponseRedirect('/accounts/login')
-
-
-class NotificationLoginView(LoginView):
-    """ override Allauth login view """
-    template_name = "login.html"
-
-
-class NotificationSignupView(SignupView):
-    """ override Allauth signup view """
-    template_name = "signup.html"

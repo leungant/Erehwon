@@ -47,10 +47,7 @@ INSTALLED_APPS = [
     'postman', 
     'ajax_select',
     'notifications',
-    # 'notify',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
+
 ]
 SITE_ID = 1
 # POSTMAN_DISALLOW_ANONYMOUS = True  # default is False
